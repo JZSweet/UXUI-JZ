@@ -1,0 +1,218 @@
+.hamburgerMenu {
+    display: none;
+}
+
+.header {
+    overflow: hidden;
+    border-bottom: 2px solid #BACAC6;
+}
+
+.responsive {
+    width: 50%;
+    max-width: 300px;
+    height: auto;
+    position: sticky;
+    top: 13px;
+    left: 24px;
+}
+
+.header a {
+    float: left;
+    color: #453539;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a:hover {
+    background-color: #CABABE;
+    color: #453539;
+}
+
+.header a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.header-right {
+    background-color: #BACAC6;
+    float: right;
+    position: static;
+    margin-top: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.footer {
+    float: left;
+    overflow: hidden;
+}
+
+footer {
+    border-top: 2px solid #BACAC6;
+    margin-bottom: 3%;
+}
+
+.footer-left a {
+    float: left;
+    color: #453539;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.footer-left a:hover {
+    background-color: #CABABE;
+    color: #453539;
+}
+
+.footer-left a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.footer-left {
+    background-color: #BACAC6;
+    float: right;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.footerR {
+    float: right;
+    width: 10%;
+    height: auto;
+}
+
+small {
+    text-align: center;
+    padding-left: 30%;
+}
+
+section {
+    padding-bottom: 3%;
+}
+
+#Headeing1 {
+    padding-bottom: 70px;
+}
+
+.sectionHeading {
+    font-family: sans-serif;
+}
+
+#JZpic {
+    display: block;
+    padding-right: 30px;
+    padding-top: 60px;
+}
+
+#JZabout {
+    width: 100%;
+}
+
+.grid {
+    margin-top: 60px;
+    margin-left: 25%;
+    position: center;
+    width: 60em;
+}
+
+#aboutme {
+    display: flex;
+    column-gap: 70px;
+}
+
+hr {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 480px) {
+    .hamburgerMenu {
+        display: block;
+        float: right;
+        padding-top: 7%;
+        position: relative;
+    }
+    .header-right {
+        float: none;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header-right a {
+        color: #453539;
+        font-size: 17px;
+    }
+    .responsive {
+        width: 63%;
+        height: auto;
+    }
+    #Headeing1 {
+        max-width: 70%;
+        margin-left: 18%;
+        padding: 0%;
+    }
+    .footerR {
+        display: none;
+    }
+    .footer-left {
+        float: left;
+        padding: 0%;
+    }
+    .footer-left a {
+        font-size: 14px;
+    }
+    small {
+        font-size: 10px;
+        padding: 0%;
+    }
+    section {
+        display: flex;
+        flex-flow: column;
+        padding-bottom: 3%;
+    }
+    .sectionHeading {
+        font-family: sans-serif;
+        font-size: 18px;
+    }
+    #JZpic {
+        display: block;
+        max-height: auto;
+        max-width: 295px;
+        padding-left: 10%;
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+    #PICsession {
+        max-height: auto;
+        max-width: fit-content;
+        margin-bottom: 15%;
+    }
+    .grid {
+        margin-top: 20px;
+        margin-left: 0.5%;
+        flex-flow: column;
+        max-width: fit-content;
+    }
+    #aboutme {
+        padding-top: 28px;
+        padding-left: 28px;
+        column-gap: 70px;
+        max-width: 380px;
+    }
+    hr {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
