@@ -279,7 +279,9 @@ hr {
         margin-left: auto;
         margin-right: auto;
     }
-    .UXUI {
+    .UXUI,
+    .fullStack,
+    .Contact {
         display: block;
         margin-left: auto;
     }
@@ -289,7 +291,7 @@ hr {
         margin-bottom: 13%;
     }
     .bounceboy {
-        margin-left: 50%;
+        margin-left: 45%;
     }
     body {
         max-width: fit-content;
