@@ -1,19 +1,38 @@
-header img {
-    max-width: 100%;
-    height: auto;
+body,
+html {
+    height: 100%;
+    margin: 0;
 }
 
-.left {
-    position: static;
-    left: 1px;
-    width: 600px;
-    border: 3px solid transparent;
-    padding: 10px;
+.hero-image {
+    background-image: url("../img/HoneydewH.png");
+    height: 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
-hr {
-    width: 30%;
-    height: 4px;
-    margin-left: auto;
-    margin-right: auto;
+.phoneview {
+    max-height: 550px;
+}
+
+#phone1 {
+    margin-top: 300px;
+    margin-left: 30%;
+}
+
+#phone2 {
+    margin-top: 490px;
+    margin-left: 2%;
+}
+
+.strong {
+    font-family: 'Jua';
+    font-size: 32px;
+}
+
+#main {
+    text-align: center;
+    color: #3A3A3A;
 }
