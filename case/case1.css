@@ -4,6 +4,12 @@ html {
     margin: 0;
 }
 
+hr {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .hero-image {
     background-image: url("../img/HoneydewH.png");
     height: 120%;
@@ -35,4 +41,27 @@ html {
 #main {
     text-align: center;
     color: #3A3A3A;
+    margin-bottom: 170px;
+    margin-top: 3%;
+}
+
+#overview {
+    margin-top: 170px;
+    margin-bottom: 170px;
+}
+
+p {
+    font-family: 'Josefin Sans';
+    font-size: 22px;
+}
+
+h2,
+h3 {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+#O1 {
+    margin-top: 7%;
+    margin-bottom: 8%;
 }
