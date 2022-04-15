@@ -51,6 +51,21 @@ hr {
     margin-bottom: 170px;
 }
 
+#overview,
+#InitialResearch,
+#DesignPhase,
+#FinalDesign,
+#Team {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+
+h {
+    font-family: 'Jua';
+    font-size: 50px;
+}
+
 p {
     font-family: 'Josefin Sans';
     font-size: 22px;
@@ -60,6 +75,11 @@ h2,
 h3 {
     margin-top: 10%;
     margin-bottom: 10%;
+}
+
+.Afterpic {
+    max-height: 700px;
+    margin-left: 130PX;
 }
 
 h4 {
