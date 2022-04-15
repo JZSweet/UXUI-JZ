@@ -21,6 +21,16 @@ html {
     padding-top: 550px;
 }
 
+p {
+    font-family: 'Epilogue';
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Cherry Swash';
+    font-size: 32px;
+}
+
 .festaPic {
     max-width: 600px;
     margin-left: 9%;
@@ -40,8 +50,19 @@ h1 {
     padding-bottom: 50px;
 }
 
-#overview {
+#overview,
+#InitialResearch {
     margin-top: 200px;
     margin-bottom: 200px;
     text-align: center;
+}
+
+#UserInterviews {
+    text-align: center;
+    margin-left: 200px;
+}
+
+#SJpic {
+    max-height: 600px;
+    margin-left: 120px;
 }
