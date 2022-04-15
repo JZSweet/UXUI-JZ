@@ -26,14 +26,26 @@ p {
     font-size: 20px;
 }
 
+h {
+    font-family: 'Cherry Swash';
+    font-size: 45px;
+}
+
 h1 {
     font-family: 'Cherry Swash';
     font-size: 32px;
+    padding-bottom: 50px;
+}
+
+h3 {
+    font-family: 'Farsan';
+    font-size: 22px;
+    text-align: center;
 }
 
 .festaPic {
     max-width: 600px;
-    margin-left: 9%;
+    margin-left: 11%;
 }
 
 #festaPicRow {
@@ -46,12 +58,11 @@ hr {
     margin-right: auto;
 }
 
-h1 {
-    padding-bottom: 50px;
-}
-
 #overview,
-#InitialResearch {
+#InitialResearch,
+#DesignPhase,
+#FinalDesign,
+#Team {
     margin-top: 200px;
     margin-bottom: 200px;
     text-align: center;
@@ -68,8 +79,9 @@ h1 {
 }
 
 #JourneyMap {
-    text-align: center;
-    margin-left: 100px;
+    text-align: inline-start;
+    margin-left: 400px;
+    margin-right: 200px;
     margin-top: 250px;
 }
 
@@ -84,4 +96,49 @@ h1 {
 #MoodBoard2 {
     text-align: center;
     margin-top: 200px;
+}
+
+#DigitalWireF,
+#UsabilityTest {
+    text-align: inline-start;
+    margin-left: 10%;
+    max-width: 1490px;
+}
+
+#WfFesta1,
+#FD1 {
+    margin-left: 4%;
+    max-width: 900px;
+    margin-bottom: 4%;
+}
+
+#WfFesta2 {
+    margin-left: 15%;
+}
+
+.styles {
+    max-width: 700px;
+    margin-top: 7%;
+    margin-bottom: 200px;
+}
+
+#FD2 {
+    max-height: 750px;
+    margin-left: 20%;
+    margin-bottom: 200px;
+}
+
+#FinalThoughts {
+    text-align: center;
+    max-width: 1490px;
+    margin-left: 10%;
+    margin-bottom: 200px;
+}
+
+#TeamM {
+    text-align: center;
+    max-width: 1200px;
+    margin-top: 5%;
+    margin-left: 18%;
+    margin-bottom: 5%;
 }
