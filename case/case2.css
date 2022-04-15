@@ -145,6 +145,9 @@ hr {
 
 #button {
     background-image: url("../img/bbg1.png");
-    height: 400px;
-    max-width: auto;
+    height: 400PX;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
