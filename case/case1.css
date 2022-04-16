@@ -71,15 +71,25 @@ p {
     font-size: 22px;
 }
 
-h2,
+h2 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
 h3 {
     margin-top: 10%;
     margin-bottom: 10%;
+    font-size: 180%;
+    text-align: center;
 }
 
 .Afterpic {
     max-height: 700px;
     margin-left: 130PX;
+}
+
+.Beforepic {
+    margin-left: 200PX;
 }
 
 h4 {
@@ -96,4 +106,21 @@ h4 {
 
 #interview {
     margin-top: 4%;
+}
+
+.walkthrough {
+    max-height: 65%;
+}
+
+#walkthroughR {
+    margin-top: 8%;
+    margin-top: 10%;
+    padding-left: 40px;
+}
+
+.PG1 {
+    text-align: center;
+    font-size: 150%;
+    margin-top: 8%;
+    margin-bottom: 8%;
 }
