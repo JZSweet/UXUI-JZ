@@ -1,0 +1,24 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    max-width: auto;
+}
+
+.hero-image {
+    background-image: url("../img/GoalGetter.png");
+    height: 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#button {
+    background-image: url("../img/");
+    height: 400PX;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
