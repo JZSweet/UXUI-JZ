@@ -105,8 +105,7 @@ hr {
     max-width: 1490px;
 }
 
-#WfFesta1,
-#FD1 {
+#WfFesta1 {
     margin-left: 4%;
     max-width: 900px;
     margin-bottom: 4%;
@@ -122,7 +121,7 @@ hr {
     margin-bottom: 200px;
 }
 
-#FD2 {
+.FD1 {
     max-height: 750px;
     margin-left: 20%;
     margin-bottom: 200px;
