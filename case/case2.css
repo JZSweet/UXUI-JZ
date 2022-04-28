@@ -142,6 +142,10 @@ hr {
     margin-bottom: 5%;
 }
 
+#caseInfo {
+    text-align: center;
+}
+
 #button {
     background-image: url("../img/bbg1.png");
     height: 400PX;
@@ -149,4 +153,8 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+button {
+    margin-top: 30%;
 }
