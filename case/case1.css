@@ -124,3 +124,27 @@ h4 {
     margin-top: 8%;
     margin-bottom: 8%;
 }
+
+#caseInfo {
+    text-align: center;
+}
+
+#teamM {
+    font-size: 180%;
+    font-family: 'Josefin Sans';
+    margin-bottom: 14%;
+    margin-left: 10%;
+}
+
+#button {
+    background-image: url("../img/BG0.png");
+    height: 400PX;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+button {
+    margin-top: 30%;
+}
