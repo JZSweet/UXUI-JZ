@@ -114,6 +114,11 @@ hr {
     margin-left: 4%;
 }
 
+#caseInfo {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
 #button {
     background-image: url("../img/GoalButton.png");
     height: 400PX;
